@@ -2,7 +2,7 @@
 <loadFolders>
 	<v1.4>
 		<li>Common</li>
-		<li>1.4</li>
+		<li>1.6</li>
 		<li IfModActive="vanillaexpanded.achievements">Mods/VE_Achievements</li>
 	</v1.4>
 </loadFolders>
