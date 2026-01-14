@@ -68,10 +68,16 @@
 			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
 		</statBases>
 		<recipes>	
-			<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_KreshToCloth</li>
-			<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_KreshToClothBulk</li>
-			<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_RefineShalkChitin</li>
-			<li MayRequire="SirMashedPotato.Ashlands">Mashed_Ashlands_RefineShalkChitinBulk</li>
+			<li>Mashed_Ashlands_KreshToCloth</li>
+			<li>Mashed_Ashlands_KreshToClothBulk</li>
+			<li>Mashed_Ashlands_RefineShalkChitin</li>
+			<li>Mashed_Ashlands_RefineShalkChitinBulk</li>
+			<li>Mashed_Ashlands_RefineMuck</li>
+			<li>Mashed_Ashlands_RefineMuckBulk</li>
+			<li>Mashed_Ashlands_RefineMuckWithNetchJelly</li>
+			<li>Mashed_Ashlands_RefineMuckWithNetchJellyBulk</li>
+			<li>Mashed_Ashlands_RachnoidSilkToCloth</li>
+			<li>Mashed_Ashlands_RachnoidSilkToClothBulk</li>
 		</recipes>
 		<comps>
 		</comps>
