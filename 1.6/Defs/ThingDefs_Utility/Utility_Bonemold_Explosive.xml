@@ -67,7 +67,7 @@
 		</apparel>
 	</ThingDef>
 	<!-- ==========[MorrowRim_Dunmer_BeltBonemold_NetchBomb]========== -->
-	<ThingDef ParentName="MorrowRim_Dunmer_BeltBonemold_Explosive" MayRequireAnyOf="SirMashedPotato.MorrowRim,SirMashedPotato.MorrowRim.JustTheAnimals">
+	<ThingDef ParentName="MorrowRim_Dunmer_BeltBonemold_Explosive" >
 		<defName>MorrowRim_Dunmer_BeltBonemold_NetchBomb</defName>
 		<label>bonemold retching bomb belt</label>
 		<description>Bonemold vessels, filled with both chemfuel and netch jelly. Shatters on impact, releasing a a cloud of retching netch gas. Can be refuelled with additional bonemold retching bombs.</description>
