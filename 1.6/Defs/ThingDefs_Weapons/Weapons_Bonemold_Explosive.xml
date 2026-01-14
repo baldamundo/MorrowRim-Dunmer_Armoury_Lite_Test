@@ -155,7 +155,7 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>1.66</explosiveRadius>
 				<explosiveDamageType>Smoke</explosiveDamageType>
-				<postExplosionSpawnThingDef>Gas_RetchingNetch</postExplosionSpawnThingDef>
+				<postExplosionGasType>RotStink</postExplosionGasType>
 			</li>
 		</comps>
 	</ThingDef>
@@ -171,7 +171,7 @@
 			<explosionRadius>1.9</explosionRadius>
 			<damageDef>Smoke</damageDef>
 			<!-- Use default damage from explosion def -->
-			<preExplosionSpawnThingDef>Gas_RetchingNetch</preExplosionSpawnThingDef>
+			<postExplosionGasType>RotStink</postExplosionGasType>
 		</projectile>
 	</ThingDef>
 	<!-- ==========[MorrowRim_Dunmer_BonemoldWeapon_ShrapnelBomb]========== -->
