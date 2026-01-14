@@ -19,7 +19,7 @@
 		<texPath>Achievements/MorrowRim_AchievementDunmerArmoury_AgedCephalopodHelm</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
-	<AchievementsExpanded.AchievementDef ParentName="MorrowRim_AchievementDunmerArmoury_Base">
+<!-- 	<AchievementsExpanded.AchievementDef ParentName="MorrowRim_AchievementDunmerArmoury_Base">
 		<defName>MorrowRim_AchievementDunmerArmoury_HerHandHelmet</defName>
 		<label>Her Hand's Helmet</label>
 		<description>Obtain a helmet that once belonged to a Hand of Almalexia</description>
@@ -63,6 +63,7 @@
 		<texPath>Achievements/MorrowRim_AchievementDunmerArmoury_HerHandBoots</texPath>
 		<points>10</points>
 	</AchievementsExpanded.AchievementDef>
+-->
 	<!-- ==========[Rare Weapons]========== -->
 	<AchievementsExpanded.AchievementDef ParentName="MorrowRim_AchievementDunmerArmoury_Base">
 		<defName>MorrowRim_AchievementDunmerArmoury_Hopesfire</defName>
