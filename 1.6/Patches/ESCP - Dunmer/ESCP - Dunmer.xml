@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>ESCP - Dunmer</li>
+        </mods>
+        
+        <match Class="PatchOperationSequence">
+            <operations>
+                <!-- Add apparel tags to base PawnKinds -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_Dunmer_TribalBase"]/apparelTags</xpath>
+                    <value>
+                        <li>MorrowRim_Dunmer_LeatherArmour</li>
+                        <li>MorrowRim_Dunmer_ChitinArmour_Standard</li>
+                        <li>MorrowRim_Dunmer_BonemoldArmour_Standard</li>
+                    </value>
+                </li>
+                
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_Dunmer_TribalChiefBase"]</xpath>
+                    <value>
+					<apparelTags>
+                        <li>Neolithic</li>
+					   <li>MorrowRim_Dunmer_LeatherArmour</li>
+                        <li>MorrowRim_Dunmer_ChitinArmour_Standard</li>
+                        <li>MorrowRim_Dunmer_BonemoldArmour_Standard</li>
+                        <li>MorrowRim_Dunmer_BonemoldArmourNoble</li>
+					</apparelTags>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_DunmerAshlander_TribalBase"]/apparelTags</xpath>
+                    <value>
+                        <li>MorrowRim_Dunmer_LeatherArmour</li>
+                        <li>MorrowRim_Dunmer_ChitinArmour_Standard</li>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerPlayerPawnKind_Tribal"]</xpath>
+                    <value>
+					<apparelTags>
+                        <li>Neolithic</li>
+					   <li>MorrowRim_Dunmer_LeatherArmour</li>
+                        <li>MorrowRim_Dunmer_ChitinArmour_Standard</li>
+					</apparelTags>
+                    </value>
+                </li>
+				
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerPlayerPawnKind_Medieval"]</xpath>
+                    <value>
+					<apparelTags>
+                        <li>Neolithic</li>
+					   <li>MorrowRim_Dunmer_LeatherArmour</li>
+                        <li>MorrowRim_Dunmer_ChitinArmour_Standard</li>
+                        <li>MorrowRim_Dunmer_BonemoldArmour_Standard</li>
+					</apparelTags>
+                    </value>
+                </li>
+				
+				
+                <!-- Set Great Houses to medieval tech level -->
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/FactionDef[@Name="ESCP_DunmerNonPlayerFaction_Base"]</xpath>
+					<value>
+						<techLevel>Medieval</techLevel>
+					</value>
+                </li>
+				
+                
+                <!-- Remove apparelRequired from abstract PawnKindDefs (affects all children) -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_Dunmer_TribalChiefBase"]/apparelRequired</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_Dunmer_TribalHunterBase"]/apparelRequired</xpath>
+                </li>
+				
+                <!-- Remove apparelRequired from concrete PawnKindDefs -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Warrior"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Breacher"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Berserker"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_HeavyArcher"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Trader"]/apparelRequired</xpath>
+                </li>
+				
+                <!-- Remove apparelRequired from abstract Ashlander PawnKindDefs (affects all children) -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_DunmerAshlander_TribalChiefBase"]/apparelRequired</xpath>
+                </li>
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[@Name="ESCP_DunmerAshlander_TribalHunterBase"]/apparelRequired</xpath>
+                </li>
+                <!-- Remove apparelRequired from concrete Ashlander PawnKindDefs -->
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerAshlander_Tribal_Warrior"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerAshlander_Tribal_Breacher"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerAshlander_Tribal_Berserker"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerAshlander_Tribal_HeavyArcher"]/apparelRequired</xpath>
+                </li>
+                
+                <li Class="PatchOperationRemove">
+                    <xpath>/Defs/PawnKindDef[defName="ESCP_DunmerAshlander_Tribal_Trader"]/apparelRequired</xpath>
+                </li>
+				
+								<!-- Increased budgets so they can afford the new armours -->
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Penitent" or defName="ESCP_DunmerAshlander_Tribal_Penitent"]/apparelMoney</xpath>
+					<value>
+						<apparelMoney>100~400</apparelMoney>
+					</value>  <!-- Can afford partial chitin (~150-200 per piece) -->
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Archer" or defName="ESCP_DunmerAshlander_Tribal_Archer" or defName="ESCP_DunmerAshlander_Tribal_Warrior" or defName="ESCP_DunmerAshlander_Tribal_Breacher" or defName="ESCP_DunmerAshlander_Tribal_HeavyArcher"]/apparelMoney</xpath>
+					<value>
+					<apparelMoney>400~600</apparelMoney>
+					</value>  <!-- Can afford full chitin (350) or partial bonemold/netch -->
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_Berserker" or defName="ESCP_Dunmer_Tribal_Breacher" or defName="ESCP_Dunmer_Tribal_Warrior" or defName="ESCP_Dunmer_Tribal_HeavyArcher" or defName="ESCP_DunmerAshlander_Tribal_Berserker"]/apparelMoney</xpath>
+					<value>
+					<apparelMoney>800~1200</apparelMoney>
+					</value>  <!-- Can afford full bonemold/netch (700) -->
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[defName="ESCP_Dunmer_Tribal_ChiefMelee" or defName="ESCP_Dunmer_Tribal_ChiefRanged" or defName="ESCP_DunmerAshlander_Tribal_ChiefMelee" or defName="ESCP_DunmerAshlander_Tribal_ChiefRanged"]</xpath>
+					<value>
+					<apparelMoney>1500~2000</apparelMoney>
+					</value> 
+				</li>
+
+				
+            </operations>
+			
+        </match>
+    </Operation>
+</Patch>
