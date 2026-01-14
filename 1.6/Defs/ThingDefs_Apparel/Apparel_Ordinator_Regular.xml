@@ -11,7 +11,7 @@
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Ordinator" Name="MorrowRim_Dunmer_ArmourCuirass_OrdinatorRegular">
 		<defName>MorrowRim_Dunmer_ArmourCuirass_OrdinatorRegular</defName>
 		<label>Ordinator cuirass</label>
-		<description>An ornately crafted cuirass, a mixture of chitin and ebony, coated in a layer of gold, and decorated with only the finest cloth. While it provides excellent protection, people are usually weary of those that don this armour, as social interactions with those not faithful to the Temple tend to skew towards the hostile side.</description>
+		<description>An ornately crafted cuirass, a mixture of bonemold and ebony, coated in a layer of gold, and decorated with only the finest cloth. While it provides excellent protection, people are usually weary of those that don this armour, as social interactions with those not faithful to the Temple tend to skew towards the hostile side.</description>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>MorrowRim_Dunmer_DoctrineOrdinatorArmour</li>
@@ -23,13 +23,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Armour_Item</texPath>
 		</graphicData>
-		<costStuffCount>50</costStuffCount>
-		<stuffCategories>
-			<li>MorrowRim_Chitin</li>
-		</stuffCategories>
 		<costList>
 			<Gold>5</Gold>
 			<Cloth>30</Cloth>
+			<ESCP_BonemoldItem>50</ESCP_BonemoldItem>
 			<Mashed_Ashlands_VolcanicEbony>120</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
@@ -73,7 +70,7 @@
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Ordinator" Name="MorrowRim_Dunmer_ArmourHelmet_OrdinatorRegular">
 		<defName>MorrowRim_Dunmer_ArmourHelmet_OrdinatorRegular</defName>
 		<label>Ordinator helmet</label>
-		<description>An ornately crafted helmet, a mixture of chitin and ebony, coated in a layer of gold, designed to resemble Indoril Nerevar. While it provides excellent protection, people are usually weary of those that don this helmet, as social interactions with those not faithful to the Temple tend to skew towards the hostile side.</description>
+		<description>An ornately crafted helmet, a mixture of bonemold and ebony, coated in a layer of gold, designed to resemble Indoril Nerevar. While it provides excellent protection, people are usually weary of those that don this helmet, as social interactions with those not faithful to the Temple tend to skew towards the hostile side.</description>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>MorrowRim_Dunmer_DoctrineOrdinatorArmour</li>
@@ -85,13 +82,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Helmet_Item</texPath>
 		</graphicData>
-		<costStuffCount>30</costStuffCount>
-		<stuffCategories>
-			<li>MorrowRim_Chitin</li>
-		</stuffCategories>
 		<costList>
 			<Gold>1</Gold>
 			<Cloth>20</Cloth>
+			<ESCP_BonemoldItem>30</ESCP_BonemoldItem>
 			<Mashed_Ashlands_VolcanicEbony>20</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
@@ -132,7 +126,7 @@
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Ordinator" Name="MorrowRim_Dunmer_ArmourBoots_OrdinatorRegular">
 		<defName>MorrowRim_Dunmer_ArmourBoots_OrdinatorRegular</defName>
 		<label>Ordinator boots</label>
-		<description>An ornately crafted pair of boots, a mixture of chitin and ebony, coated in a layer of gold. Provides excellent protection, and makes those that have defied the Temple feel uneasy.</description>
+		<description>An ornately crafted pair of boots, a mixture of bonemold and ebony, coated in a layer of gold. Provides excellent protection, and makes those that have defied the Temple feel uneasy.</description>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>MorrowRim_Dunmer_DoctrineOrdinatorArmour</li>
@@ -144,13 +138,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Boots</texPath>
 		</graphicData>
-		<costStuffCount>30</costStuffCount>
-		<stuffCategories>
-			<li>MorrowRim_Chitin</li>
-		</stuffCategories>
 		<costList>
 			<Gold>1</Gold>
 			<Cloth>20</Cloth>
+			<ESCP_BonemoldItem>30</ESCP_BonemoldItem>
 			<Mashed_Ashlands_VolcanicEbony>20</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
@@ -186,7 +177,7 @@
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Ordinator" Name="MorrowRim_Dunmer_ArmourGauntlets_OrdinatorRegular">
 		<defName>MorrowRim_Dunmer_ArmourGauntlets_OrdinatorRegular</defName>
 		<label>Ordinator gauntlets</label>
-		<description>An ornately crafted pair of gauntlets, a mixture of chitin and ebony, coated in a layer of gold. Provides excellent protection, and makes those that have defied the Temple feel uneasy.</description>
+		<description>An ornately crafted pair of gauntlets, a mixture of bonemold and ebony, coated in a layer of gold. Provides excellent protection, and makes those that have defied the Temple feel uneasy.</description>
 		<recipeMaker>
 			<researchPrerequisites>
 				<li>MorrowRim_Dunmer_DoctrineOrdinatorArmour</li>
@@ -198,13 +189,10 @@
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/MorrowRim_Ordinator/Ordinator_Regular/Ordinator_Regular_Gauntlets</texPath>
 		</graphicData>
-		<costStuffCount>30</costStuffCount>
-		<stuffCategories>
-			<li>MorrowRim_Chitin</li>
-		</stuffCategories>
 		<costList>
 			<Gold>1</Gold>
 			<Cloth>20</Cloth>
+			<ESCP_BonemoldItem>30</ESCP_BonemoldItem>
 			<Mashed_Ashlands_VolcanicEbony>20</Mashed_Ashlands_VolcanicEbony>
 		</costList>
 		<statBases>
