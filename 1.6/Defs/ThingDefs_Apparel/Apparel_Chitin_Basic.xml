@@ -89,6 +89,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+			<Mashed_Ashlands_AshResistance>0.7</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
@@ -233,6 +234,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>0.4</ToxicEnvironmentResistance>
+			<Mashed_Ashlands_AshResistance>0.9</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>

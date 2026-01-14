@@ -38,6 +38,7 @@
 			<!-- 0.2 higher than standard -->
 			<MoveSpeed>-0.8</MoveSpeed>
 			<PsychicEntropyRecoveryRate MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">0.3</PsychicEntropyRecoveryRate>
+			<Mashed_Ashlands_AshResistance>0.8</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

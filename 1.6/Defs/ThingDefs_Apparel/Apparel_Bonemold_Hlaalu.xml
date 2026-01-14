@@ -94,6 +94,7 @@
 			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
 			<NegotiationAbility>0.1</NegotiationAbility>
 			<TradePriceImprovement>0.1</TradePriceImprovement>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

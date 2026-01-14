@@ -102,6 +102,7 @@
 			<MeleeHitChanceIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeHitChanceIndoorsDarkOffset>
 			<MeleeDodgeChanceOutdoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeDodgeChanceOutdoorsDarkOffset>
 			<MeleeDodgeChanceIndoorsDarkOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</MeleeDodgeChanceIndoorsDarkOffset>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>

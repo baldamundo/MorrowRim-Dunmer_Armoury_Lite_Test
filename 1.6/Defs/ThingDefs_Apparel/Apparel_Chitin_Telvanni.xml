@@ -46,6 +46,7 @@
 			<MentalBreakThreshold>0.05</MentalBreakThreshold>
 			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
 			<PsychicEntropyRecoveryRate MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">0.033</PsychicEntropyRecoveryRate>
+			<Mashed_Ashlands_AshResistance>0.8</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>
@@ -99,6 +100,7 @@
 			<ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
 			<PsychicEntropyRecoveryRate MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">0.09</PsychicEntropyRecoveryRate>
 			<PsychicEntropyMax MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">20</PsychicEntropyMax>
+			<Mashed_Ashlands_AshResistance>0.8</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>

@@ -98,6 +98,7 @@
 			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
 			<MentalBreakThreshold>-0.1</MentalBreakThreshold>
 			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-0.1</CertaintyLossFactor>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

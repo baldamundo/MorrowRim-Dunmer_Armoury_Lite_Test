@@ -105,6 +105,7 @@
 			<ArrestSuccessChance>0.15</ArrestSuccessChance>
 			<MeleeHitChance>1</MeleeHitChance>
 			<MeleeDodgeChance>5</MeleeDodgeChance>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>

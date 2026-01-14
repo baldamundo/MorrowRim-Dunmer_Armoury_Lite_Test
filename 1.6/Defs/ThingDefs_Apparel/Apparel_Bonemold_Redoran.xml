@@ -101,6 +101,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.1</ShootingAccuracyPawn>
+			<Mashed_Ashlands_AshResistance>0.6</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -163,6 +164,7 @@
 			<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
 			<NegotiationAbility>0.2</NegotiationAbility>
 			<SocialImpact>0.2</SocialImpact>
+			<Mashed_Ashlands_AshResistance>0.7</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

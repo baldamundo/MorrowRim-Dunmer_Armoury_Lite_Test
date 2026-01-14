@@ -42,6 +42,7 @@
 			<ToxicResistance>0.1</ToxicResistance>
 			<PainShockThreshold>0.02</PainShockThreshold>
 			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<Mashed_Ashlands_AshResistance>0.9</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

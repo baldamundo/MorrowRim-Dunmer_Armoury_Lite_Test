@@ -43,6 +43,7 @@
 			<ShootingAccuracyFactor_Long>0.20</ShootingAccuracyFactor_Long>
 			<AimingDelayFactor>-0.1</AimingDelayFactor>
 			<MeleeDodgeChance>-2</MeleeDodgeChance>
+			<Mashed_Ashlands_AshResistance>0.6</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

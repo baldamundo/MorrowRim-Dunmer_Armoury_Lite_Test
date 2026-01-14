@@ -103,6 +103,7 @@
 			<ArrestSuccessChance>0.15</ArrestSuccessChance>
 			<PsychicSensitivity>0.25</PsychicSensitivity>
 			<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>

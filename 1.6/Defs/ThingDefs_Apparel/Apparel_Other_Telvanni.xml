@@ -46,6 +46,7 @@
 			<ShootingAccuracyPawn>-0.05</ShootingAccuracyPawn>
 			<MentalBreakThreshold>0.05</MentalBreakThreshold>
 			<SocialImpact>-0.05</SocialImpact>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>

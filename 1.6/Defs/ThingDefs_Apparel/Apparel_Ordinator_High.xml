@@ -48,6 +48,7 @@
 			<MeleeHitChance>3</MeleeHitChance>
 			<MeleeDodgeChance>15</MeleeDodgeChance>
 			<ToxicResistance>0.1</ToxicResistance>
+			<Mashed_Ashlands_AshResistance>0.5</Mashed_Ashlands_AshResistance>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
