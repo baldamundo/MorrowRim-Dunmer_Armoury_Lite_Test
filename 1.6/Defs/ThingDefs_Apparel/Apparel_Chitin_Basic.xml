@@ -11,7 +11,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ArmourCuirass_ChitinRegular]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Chitin" Name="MorrowRim_Dunmer_ArmourCuirass_ChitinRegular">
 		<defName>MorrowRim_Dunmer_ArmourCuirass_ChitinRegular</defName>
-		<label>chitin cuirass</label>
+		<label>ashland cuirass</label>
 		<description>A relatively standard cuirass, made of flexible insect chitin. Offers reasonable protection, and is rather light.\n\nTypically favoured by Ashlanders, bandits, and mercenaries.</description>
 		<recipeMaker>
 			<skillRequirements>
@@ -30,10 +30,12 @@
 			<MaxHitPoints>110</MaxHitPoints>
 			<Mass>6</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
+<!-- 			<ArmorRating_Sharp>0.32</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.15</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
-			<Insulation_Heat>4</Insulation_Heat>
+			<Insulation_Heat>4</Insulation_Heat> -->
+			<StuffEffectMultiplierArmor>0.711</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Heat>0.66</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>8</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -64,7 +66,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ArmourHelmet_ChitinRegular]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Chitin" Name="MorrowRim_Dunmer_ArmourHelmet_ChitinRegular">
 		<defName>MorrowRim_Dunmer_ArmourHelmet_ChitinRegular</defName>
-		<label>chitin helmet</label>
+		<label>ashland helmet</label>
 		<description>A relatively standard helmet, made of flexible insect chitin. Offers reasonable protection, and is somewhat light.\n\nTypically favoured by Ashlanders, bandits, and mercenaries.</description>
 		<recipeMaker>
 			<skillRequirements>
@@ -83,10 +85,12 @@
 			<MaxHitPoints>60</MaxHitPoints>
 			<Mass>0.7</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+<!-- 			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Heat>3</Insulation_Heat> -->
 			<EquipDelay>1.2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -115,7 +119,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ArmourBoots_ChitinRegular]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Chitin" Name="MorrowRim_Dunmer_ArmourBoots_ChitinRegular">
 		<defName>MorrowRim_Dunmer_ArmourBoots_ChitinRegular</defName>
-		<label>chitin boots</label>
+		<label>ashland boots</label>
 		<description>A pair of standard boots, made of flexible insect chitin. Offers reasonable protection, but slows movement slightly.\n\nTypically favoured by Ashlanders, bandits, and mercenaries.</description>
 		<recipeMaker>
 			<skillRequirements>
@@ -134,10 +138,12 @@
 			<MaxHitPoints>60</MaxHitPoints>
 			<Mass>0.7</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+<!-- 			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Heat>3</Insulation_Heat> -->
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -162,7 +168,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ArmourGauntlets_ChitinRegular]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourMakeable_Chitin" Name="MorrowRim_Dunmer_ArmourGauntlets_ChitinRegular">
 		<defName>MorrowRim_Dunmer_ArmourGauntlets_ChitinRegular</defName>
-		<label>chitin gauntlets</label>
+		<label>ashland gauntlets</label>
 		<description>A pair of standard gauntlets, made of flexible insect chitin. Offers reasonable protection, but gets in the way while working.\n\nTypically favoured by Ashlanders, bandits, and mercenaries.</description>
 		<recipeMaker>
 			<skillRequirements>
@@ -180,11 +186,13 @@
 			<WorkToMake>4700</WorkToMake>
 			<MaxHitPoints>60</MaxHitPoints>
 			<Mass>0.7</Mass>
-			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+			<Flammability>0.2</Flammability>			
+<!-- 			<ArmorRating_Sharp>0.18</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.2</ArmorRating_Heat>
-			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Heat>3</Insulation_Heat> -->
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>1.2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -214,7 +222,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ArmourHelmet_ChitinAshMask]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ArmourHelmet_ChitinRegular">
 		<defName>MorrowRim_Dunmer_ArmourHelmet_ChitinAshMask</defName>
-		<label>chitin ash mask</label>
+		<label>ash mask</label>
 		<description>A slightly peculiar chitin helmet, designed for those that frequent the ashlands. An inbuilt filtration system helps to keep ash out of the wearers lungs, and is also reasonably effective at filtering out airborne toxins.\n\nTypically favoured by Ashlanders, bandits, and mercenaries.</description>
 		<recipeMaker>
 			<skillRequirements>
@@ -232,11 +240,14 @@
 			<li>MorrowRim_Chitin</li>
 		</stuffCategories>
 		<statBases>
-			<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
+<!-- 			<ArmorRating_Sharp>0.16</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.08</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.15</ArmorRating_Heat>
 			<Insulation_Cold>3</Insulation_Cold>
-			<Insulation_Heat>5</Insulation_Heat>
+			<Insulation_Heat>5</Insulation_Heat> -->
+			<StuffEffectMultiplierArmor>0.355</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Heat>0.833</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
 			<EquipDelay>1.2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>

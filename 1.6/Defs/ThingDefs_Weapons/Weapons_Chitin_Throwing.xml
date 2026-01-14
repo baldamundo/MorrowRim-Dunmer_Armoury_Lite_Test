@@ -33,7 +33,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ChitinWeapon_ThrowingStar]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ChitinWeapon_Throwing">
 		<defName>MorrowRim_Dunmer_ChitinWeapon_ThrowingStar</defName>
-		<label>chitin throwing stars</label>
+		<label>ashland throwing stars</label>
 		<description>Primitive chitin throwing stars, aerodynamic and quick to throw, though not the most accurate. While effective at cutting through flesh from a distance, they can also make for decent melee weapons when needed.</description>
 		<modExtensions>
 			<li Class="VEF.Things.ThingDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">

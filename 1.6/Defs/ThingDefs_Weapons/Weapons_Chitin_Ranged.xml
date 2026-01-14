@@ -30,7 +30,7 @@
 	<!-- ==========[MorrowRim_Dunmer_ChitinWeapon_RangedDart]========== -->
 	<ThingDef ParentName="MorrowRim_Dunmer_ChitinWeapon_Ranged">
 		<defName>MorrowRim_Dunmer_ChitinWeapon_RangedLongBow</defName>
-		<label>chitin short bow</label>
+		<label>ashland short bow</label>
 		<description>A primitive short bow, made from chitin, a weapon favoured by Ashlanders. While it fires faster than a regular short bow, the arrows fired don't have quite the same impact.</description>
 		<modExtensions>
 			<li Class="VEF.Things.ThingDefExtension" MayRequire="OskarPotocki.VanillaFactionsExpanded.Core">
